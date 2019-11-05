@@ -32,12 +32,16 @@ function SocketConnection(connection, connectCallback) {
         io.sockets = {};
     } catch (e) {};
 
+    connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
+
     if (!connection.socketURL) {
-        connection.socketURL = '/';
+        // connection.socketURL = '/';
+        connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
     }
 
     if (connection.socketURL.substr(connection.socketURL.length - 1, 1) != '/') {
         // connection.socketURL = 'https://domain.com:9001/';
+        connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
         throw '"socketURL" MUST end with a slash.';
     }
 

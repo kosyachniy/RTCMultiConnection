@@ -1554,6 +1554,7 @@
     };
 
     connection.socketURL = '@@socketURL'; // generated via config.json
+    // connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
     connection.socketMessageEvent = '@@socketMessageEvent'; // generated via config.json
     connection.socketCustomEvent = '@@socketCustomEvent'; // generated via config.json
     connection.DetectRTC = DetectRTC;

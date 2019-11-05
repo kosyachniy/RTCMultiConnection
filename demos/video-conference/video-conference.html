@@ -53,7 +53,7 @@
 
 <script src="/dist/RTCMultiConnection.min.js"></script>
 <script src="/node_modules/webrtc-adapter/out/adapter.js"></script>
-<script src="/socket.io/socket.io.js"></script>
+<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 
 <!-- custom layout for HTML5 audio/video elements -->
 <link rel="stylesheet" href="/dev/getHTMLMediaElement.css">
@@ -81,10 +81,10 @@ connection.autoCloseEntireSession = true;
 connection.publicRoomIdentifier = params.publicRoomIdentifier;
 
 // by default, socket.io server is assumed to be deployed on your own URL
-connection.socketURL = '/';
+// connection.socketURL = '/';
 
 // comment-out below line if you do not have your own socket.io server
-// connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
+connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
 
 connection.socketMessageEvent = 'video-conference-demo';
 

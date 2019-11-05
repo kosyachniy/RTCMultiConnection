@@ -15,7 +15,7 @@
   <link href="/demos/css/bootstrap.min.css" rel="stylesheet">
   <script src="/node_modules/webrtc-adapter/out/adapter.js"></script>
   <script src="/dist/RTCMultiConnection.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
   <script src="/node_modules/fbr/FileBufferReader.js"></script>
 
   <script src="/node_modules/canvas-designer/dev/webrtc-handler.js"></script>
@@ -199,8 +199,8 @@ hr {
 
 var connection = new RTCMultiConnection();
 
-connection.socketURL = '/';
-// connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
+// connection.socketURL = '/';
+connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
 
 connection.extra.userFullName = params.userFullName;
 

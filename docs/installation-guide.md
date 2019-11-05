@@ -68,9 +68,9 @@ Now run `server.js` and it will automatically use above configuration.
 
 # How to check if server is running correctly?
 
-Open this URL: `https://localhost:9001/socket.io/socket.io.js`
+Open this URL: `https://localhost:9001https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js`
 
-If you can load `/socket.io/socket.io.js` on your server then it is working fine.
+If you can load `https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js` on your server then it is working fine.
 
 # Stop Old Processes
 

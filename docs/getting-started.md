@@ -11,13 +11,13 @@ Copy any demo source from this page:
 Now search for `socket.io.js` file. You will find this:
 
 ```html
-<script src="/socket.io/socket.io.js"></script>
+<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 ```
 
 Replace above line with this one:
 
 ```html
-<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
+<script src="https://rtcmulticonnection.herokuapp.comhttps://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 ```
 
 Last step is: search for `connection.socketURL`. You will find these two lines:
@@ -46,7 +46,7 @@ First of all, add these two lines:
 
 ```html
 <script src="https://rtcmulticonnection.herokuapp.com/dist/RTCMultiConnection.min.js"></script>
-<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
+<script src="https://rtcmulticonnection.herokuapp.comhttps://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 ```
 
 Now add two buttons:

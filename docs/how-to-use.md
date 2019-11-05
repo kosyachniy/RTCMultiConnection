@@ -38,7 +38,7 @@ If you're sharing files, you also need to link:
 Use socket.io:
 
 ```html
-<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
+<script src="https://rtcmulticonnection.herokuapp.comhttps://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 ```
 
 ## Set different socket URL

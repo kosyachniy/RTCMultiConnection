@@ -14,7 +14,7 @@
   <script src="/demos/js/jquery-3.3.1.slim.min.js"></script>
   <script src="/demos/js/popper.min.js"></script>
   <script src="/demos/js/bootstrap.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
   <script src="/dist/RTCMultiConnection.min.js"></script>
 
 <style type="text/css">
@@ -453,8 +453,8 @@ var publicRoomIdentifier = 'dashboard';
 
 var connection = new RTCMultiConnection();
 
-connection.socketURL = '/';
-// connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
+// connection.socketURL = '/';
+connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
 
 /// make this room public
 connection.publicRoomIdentifier = publicRoomIdentifier;
